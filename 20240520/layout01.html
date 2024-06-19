@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>用DIV來排版</title>
+    <style>
+        body{
+            margin: 0px;
+        }
+        #container{
+            width: 80%;
+            background-color: lightcyan;
+            margin: 0px auto;
+        }
+        #header{
+            height: 300px;
+            background-color: lightpink;
+        }
+        #nav{
+            height: 100px;
+            background-color: rgb(211, 211, 211);
+        }
+        #aside{
+            min-height: 800px;
+            width: 20%;
+            float: left;
+            background-color: lightcoral;
+        }
+        #section{
+            min-height: 800px;
+            width: 80%;
+            float: left;
+            background-color: lightseagreen;
+            margin: 0px auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            flex-direction: row;
+        }
+        #footer{
+            height: 200px;
+            clear: both;
+            background-color: lightgoldenrodyellow;
+        }
+        .picture{
+            width: 100px;
+            height: 100px;
+            background-color: blanchedalmond;
+            background-image: url(../img/1-Photoroom.png);
+            background-size: cover;
+        }
+        .item{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            margin: 20px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="header"></div>
+        <div id="nav"></div>
+        <div id="main">
+         <div id="aside"></div> 
+         <div id="section">
+             <div class="item">
+              <div class="picture"></div>
+               <h1>就要陶瓷</h1>
+               <p>精心燒製 品味生活</p>
+              </div>
+             <div class="item">
+              <div class="picture"></div>
+               <h1>就要陶瓷</h1>
+               <p>精心燒製 品味生活</p>
+              </div>
+             <div class="item">
+              <div class="picture"></div>
+               <h1>就要陶瓷</h1>
+               <p>精心燒製 品味生活</p>
+              </div>
+             <div class="item">
+              <div class="picture"></div>
+               <h1>就要陶瓷</h1>
+               <p>精心燒製 品味生活</p>
+              </div>
+             <div class="item">
+              <div class="picture"></div>
+               <h1>就要陶瓷</h1>
+               <p>精心燒製 品味生活</p>
+              </div>
+             <div class="item">
+              <div class="picture"></div>
+               <h1>就要陶瓷</h1>
+               <p>精心燒製 品味生活</p>
+              </div>
+             <div class="item">
+              <div class="picture"></div>
+               <h1>就要陶瓷</h1>
+               <p>精心燒製 品味生活</p>
+              </div>
+             <div class="item">
+              <div class="picture"></div>
+               <h1>就要陶瓷</h1>
+               <p>精心燒製 品味生活</p>
+              </div>
+             <div class="item">
+              <div class="picture"></div>
+               <h1>就要陶瓷</h1>
+               <p>精心燒製 品味生活</p>
+              </div>
+             <div class="item">
+              <div class="picture"></div>
+               <h1>就要陶瓷</h1>
+               <p>精心燒製 品味生活</p>
+              </div>
+             <div class="item">
+              <div class="picture"></div>
+               <h1>就要陶瓷</h1>
+               <p>精心燒製 品味生活</p>
+              </div>
+             <div class="item">
+              <div class="picture"></div>
+               <h1>就要陶瓷</h1>
+               <p>精心燒製 品味生活</p>
+              </div>
+            
+         </div>
+         </div>
+        <div id="footer"></div>
+    </div>
+</body>
+</html>
